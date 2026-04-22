@@ -40,9 +40,9 @@ android {
 }
 
 dependencies {
-    implementation(project(":memory-monitor-core"))
-    implementation(project(":memory-monitor-core-popup"))
-    implementation(project(":memory-monitor-core-service"))
+    implementation(libs.memory.monitor.core)
+    implementation(libs.memory.monitor.core.popup)
+    implementation(libs.memory.monitor.core.service)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
