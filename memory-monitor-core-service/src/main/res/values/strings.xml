@@ -1,0 +1,5 @@
+<resources>
+    <string name="notification_channel_description">Shows current app memory usage in foreground service.</string>
+    <string name="notification_title_template">Memory %1$s / %2$s</string>
+    <string name="notification_text_template">Peak %1$s · Usage %2$s</string>
+</resources>

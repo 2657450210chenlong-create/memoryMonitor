@@ -1,0 +1,4 @@
+<resources>
+    <string name="popup_title">Memory</string>
+    <string name="popup_summary_template">Now %1$s / Max %2$s</string>
+</resources>

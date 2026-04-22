@@ -1,0 +1,10 @@
+jdk:
+  - openjdk21
+
+before_install:
+  - chmod +x gradlew
+  - if command -v sdkmanager >/dev/null 2>&1; then yes | sdkmanager --licenses > /dev/null || true; fi
+  - if command -v sdkmanager >/dev/null 2>&1; then sdkmanager "platforms;android-36" "build-tools;36.0.0" || true; fi
+
+install:
+  - ./gradlew :memory-monitor-core:publishToMavenLocal :memory-monitor-core-popup:publishToMavenLocal :memory-monitor-core-service:publishToMavenLocal

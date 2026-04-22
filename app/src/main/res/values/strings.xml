@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Memory Monitor</string>
+    <string name="demo_title">Memory Monitor Demo</string>
+    <string name="demo_subtitle">Track app Java/native heap usage in real time.</string>
+    <string name="hint_interval_ms">Interval (ms)</string>
+    <string name="hint_max_samples">Max samples</string>
+    <string name="button_init">Init</string>
+    <string name="button_start">Start</string>
+    <string name="button_stop">Stop</string>
+    <string name="button_clear">Clear</string>
+    <string name="button_show_popup">Show Popup</string>
+    <string name="button_hide_popup">Hide Popup</string>
+    <string name="button_start_service">Start Service</string>
+    <string name="button_stop_service">Stop Service</string>
+    <string name="label_current">Current Used</string>
+    <string name="label_peak">Peak Used</string>
+    <string name="label_max">App Max Memory</string>
+    <string name="label_usage_ratio">Usage Ratio</string>
+    <string name="label_count">Sample Count</string>
+    <string name="label_status">Status</string>
+    <string name="status_idle">Idle</string>
+    <string name="status_running">Running</string>
+    <string name="status_stopped">Stopped</string>
+    <string name="status_cleared">Cleared</string>
+    <string name="status_initialized">Initialized: interval=%1$dms, max=%2$d</string>
+    <string name="toast_initialized">Monitor initialized.</string>
+    <string name="toast_started">Sampling started.</string>
+    <string name="toast_stopped">Sampling stopped.</string>
+    <string name="toast_cleared">History cleared.</string>
+    <string name="toast_popup_shown">Popup shown.</string>
+    <string name="toast_popup_hidden">Popup hidden.</string>
+    <string name="toast_service_started">Foreground service started.</string>
+    <string name="toast_service_stopped">Foreground service stopped.</string>
+    <string name="toast_notification_permission_needed">Please allow notification permission to show foreground notification.</string>
+    <string name="toast_notification_disabled">Notifications are disabled for this app. Please enable them in system settings.</string>
+    <string name="error_interval_invalid">Please input a valid interval greater than 0.</string>
+    <string name="error_max_samples_invalid">Please input a valid max sample count greater than 0.</string>
+    <string name="error_unknown">Unknown error.</string>
+    <string name="sample_detail_template">Java: %1$s, Native: %2$s, Native Free: %3$s</string>
+</resources>
